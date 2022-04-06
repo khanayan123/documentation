@@ -11,7 +11,9 @@ further_reading:
 
 Watchdog Root Cause Analysis (RCA) helps you reduce mean time to recovery (MTTR) by automating preliminary investigations during incident triage. The Watchdog AI engine identifies interdependencies between application performance anomalies and related components to draw causal relationships between symptoms. Whenever Watchdog finds an APM anomaly, it starts a root cause analysis in an attempt to provide deeper insight into the cause and/or effects of the anomaly.
 
-Watchdog RCA requires the use of [APM][1]. In order for Watchdog to take full advantage of all relevant Datadog telemetry for impacted services, Datadog recommends that you set up [unified tagging][2]. Watchdog RCA considers the the following sources of data in its analysis:
+Watchdog RCA requires the use of [APM][1]. In order for Watchdog to take full advantage of all relevant Datadog telemetry for impacted services, Datadog recommends that you set up [unified tagging][2]. 
+
+Watchdog RCA considers the following sources of data in its analysis:
 
 * APM error rate, latency, and hit rate metrics
 * APM deployment tracking
