@@ -645,6 +645,11 @@
       "group": "synthetics",
       "suffix": "_2779190961",
       "description": "Client is resilient to enum and oneOf deserialization errors"
+    },
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get the list of all tests returns \"OK - Returns the list of all Synthetic tests.\" response"
     }
   ],
   "CreateSyntheticsBrowserTest": [
@@ -652,6 +657,20 @@
       "group": "synthetics",
       "suffix": "",
       "description": "Create a browser test returns \"OK - Returns the created test details.\" response"
+    }
+  ],
+  "CreateGlobalVariable": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Create a global variable returns \"OK\" response"
+    }
+  ],
+  "CreatePrivateLocation": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Create a private location returns \"OK\" response"
     }
   ],
   "CreateSyntheticsAPITest": [
@@ -664,6 +683,11 @@
       "group": "synthetics",
       "suffix": "_1072503741",
       "description": "Create an API SSL test returns \"OK - Returns the created test details.\" response"
+    },
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Create an API test returns \"OK - Returns the created test details.\" response"
     },
     {
       "group": "synthetics",
@@ -681,6 +705,41 @@
       "description": "Create an API test with multi subtype returns \"OK - Returns the created test details.\" response"
     }
   ],
+  "DeleteGlobalVariable": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Delete a global variable returns \"OK\" response"
+    }
+  ],
+  "DeletePrivateLocation": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Delete a private location returns \"OK\" response"
+    }
+  ],
+  "UpdateBrowserTest": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Edit a browser test returns \"OK\" response"
+    }
+  ],
+  "EditGlobalVariable": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Edit a global variable returns \"OK\" response"
+    }
+  ],
+  "UpdatePrivateLocation": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Edit a private location returns \"OK\" response"
+    }
+  ],
   "UpdateAPITest": [
     {
       "group": "synthetics",
@@ -688,11 +747,100 @@
       "description": "Edit an API test returns \"OK\" response"
     }
   ],
+  "GetBrowserTestResult": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a browser test result returns \"OK\" response"
+    }
+  ],
+  "GetBrowserTest": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a browser test returns \"OK\" response"
+    }
+  ],
+  "GetBrowserTestLatestResults": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a browser test's latest results summaries returns \"OK\" response"
+    }
+  ],
+  "GetGlobalVariable": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a global variable returns \"OK\" response"
+    }
+  ],
+  "GetPrivateLocation": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a private location returns \"OK\" response"
+    }
+  ],
+  "GetTest": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get a test configuration returns \"OK\" response"
+    }
+  ],
+  "ListGlobalVariables": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get all global variables returns \"OK\" response"
+    }
+  ],
+  "ListLocations": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get all locations (public and private) returns \"OK\" response"
+    }
+  ],
   "GetAPITestResult": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get an API test result returns \"OK\" response"
+    },
     {
       "group": "synthetics",
       "suffix": "_1321866518",
       "description": "Get an API test result returns result with failure object"
+    }
+  ],
+  "GetAPITest": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get an API test returns \"OK\" response"
+    }
+  ],
+  "GetAPITestLatestResults": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get an API test's latest results summaries returns \"OK\" response"
+    }
+  ],
+  "GetSyntheticsCIBatch": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Get details of batch returns \"OK\" response"
+    }
+  ],
+  "UpdateTestPauseStatus": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Pause or start a test returns \"OK - Returns a boolean indicating if the update was successful.\" response"
     }
   ],
   "TriggerTests": [
@@ -700,6 +848,13 @@
       "group": "synthetics",
       "suffix": "",
       "description": "Trigger Synthetics tests returns \"OK\" response"
+    }
+  ],
+  "TriggerCITests": [
+    {
+      "group": "synthetics",
+      "suffix": "",
+      "description": "Trigger tests from CI/CD pipelines returns \"OK\" response"
     }
   ],
   "GetHourlyUsageAttribution": [

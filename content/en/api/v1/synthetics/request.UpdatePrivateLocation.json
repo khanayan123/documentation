@@ -1,0 +1,13 @@
+{
+  "description": "Description of private location",
+  "metadata": {
+    "flavor": "linux",
+    "restricted_roles": [
+      "string"
+    ]
+  },
+  "name": "New private location",
+  "tags": [
+    "team:front"
+  ]
+}

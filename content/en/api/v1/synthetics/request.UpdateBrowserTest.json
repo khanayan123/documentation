@@ -1,0 +1,58 @@
+{
+  "config": {
+    "assertions": [],
+    "configVariables": [
+      {
+        "name": "VARIABLE_NAME",
+        "type": "text"
+      }
+    ],
+    "request": {
+      "basicAuth": {
+        "password": "PaSSw0RD!",
+        "type": "web",
+        "username": "my_username"
+      },
+      "certificate": {
+        "cert": {},
+        "key": {}
+      },
+      "method": "GET",
+      "proxy": {
+        "url": "https://example.com"
+      },
+      "url": "https://example.com"
+    },
+    "variables": [
+      {
+        "name": "VARIABLE_NAME",
+        "type": "text"
+      }
+    ]
+  },
+  "locations": [
+    "aws:eu-west-3"
+  ],
+  "message": "",
+  "name": "Example test name",
+  "options": {
+    "device_ids": [
+      "laptop_large"
+    ],
+    "monitor_options": {},
+    "restricted_roles": [
+      "string"
+    ],
+    "retry": {}
+  },
+  "status": "live",
+  "steps": [
+    {
+      "type": "assertElementContent"
+    }
+  ],
+  "tags": [
+    "env:prod"
+  ],
+  "type": "browser"
+}
